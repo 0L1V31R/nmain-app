@@ -79,8 +79,6 @@
     2. add reducer to store.js
     3. use reducer in ProductScreen.js
     4. add /api/product/:id to backend api
-11. Implement AddToCart action
-    1. create addToCart constant, actions and reducers
-    2. add reducer to store.js
-    3. use action in CartScreen.js
-    4. render artItems.length
+11. Handle Add To Cart Button
+    1. handle AddToCart in ProductScreen.js
+    2. create CartScreen.js
