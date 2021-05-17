@@ -57,3 +57,9 @@
    8. create loading component
    9. create message box component
    10. use them in HomeScreen
+8. Install ESlint for code linting
+   1. install vscode extension
+   2. npm install -D eslint
+   3. run ./node_modules/.bin/eslint --init
+   4. create ./frontend/.env
+   5. add SKIP_PREFLIGHT_CHECK=true
