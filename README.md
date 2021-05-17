@@ -87,3 +87,9 @@
     2. add reducer to store.js
     3. use action in CartScreen.js
     4. render cartItems.length
+13. Build CartScreen
+    1. create 2 columns for cart items and cart action
+    2. cartItems.length === 0 ? cart is empty
+    3. show item image, name, qty and price
+    4. Proceed to checkout button
+    5. implement remove cart action
