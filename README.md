@@ -33,3 +33,16 @@
    5. create ProductScreen.js
    6. add new from product details to App.js
    7. create 3 columns for product image, info and action
+6. Create Node.Js Server
+   1. run npm init in backend folder
+   2. update package.json set type: module
+   3. add .js to imports
+   4. npm install express
+   5. create server.js
+   6. add start command as node server.js
+   7. require express
+   8. create route for / return backend is ready
+   9. move products.js from forntend to backend
+   10. create route for /api/products
+   11. return products
+   12. run npm start
