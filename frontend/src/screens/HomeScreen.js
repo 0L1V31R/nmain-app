@@ -28,7 +28,6 @@ export default function HomeScreen() {
         }
       </div>
       )}
-      
-  </div> 
+    </div> 
   );
 }

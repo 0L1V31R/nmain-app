@@ -63,7 +63,7 @@
    3. run ./node_modules/.bin/eslint --init
    4. create ./frontend/.env
    5. add SKIP_PREFLIGHT_CHECK=true
-9. Add REdux to HomeScreen
+9. Add Redux to HomeScreen
    1. npm install redux react-redux
    2. create store.js
    3. initState= {products:[]}
@@ -74,3 +74,13 @@
    8. const dispatch = useDispath()
    9. useEffect(()=>dispatch({type: LOAD_PRODUCTS, payload: data}))
    10. add store to index.js
+10. Add Redux to ProductScreen
+    1. create product details constant, action and reducers
+    2. add reducer to store.js
+    3. use reducer in ProductScreen.js
+    4. add /api/product/:id to backend api
+11. Implement AddToCart action
+    1. create addToCart constant, actions and reducers
+    2. add reducer to store.js
+    3. use action in CartScreen.js
+    4. render artItems.length
