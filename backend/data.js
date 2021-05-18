@@ -15,9 +15,8 @@ const data = {
             isAdmin: false,
         },
     ],
-    products:[
+    products: [
         {
-            _id:'1',
             name:'Bolsa Grande 1',
             category:'Bolsas',
             image:'/images/_CAO9440.jpg',
@@ -29,7 +28,6 @@ const data = {
             description: 'Bolsa em fibra de Buriti, com forro em tecido de algodão, formato retangular',
         },
         {
-            _id:'2',
             name:'Bolsa Meia Lua 1',
             category:'Bolsas',
             image:'/images/_CAO9448.jpg',
@@ -41,7 +39,6 @@ const data = {
             description: 'Bolsa de mão em fibra de Buriti, com forro em tecido de algodão, formato meia lua.',
         },
         {
-            _id:'3',
             name:'Bolsa Média Macramê',
             category:'Bolsas',
             image:'/images/_CAO9464.jpg',
@@ -53,7 +50,6 @@ const data = {
             description: 'Bolsa com trama macramê em fibra de Buriti, com forro em tecido de algodão, formato retangular.',
         },
         {
-            _id:'4',
             name:'Bolsa Grande 3',
             category:'Bolsas',
             image:'/images/_CAO9470.jpg',
@@ -65,7 +61,6 @@ const data = {
             description: 'Bolsa em fibra de Buriti, com forro em tecido de algodão, retangular',
         },
         {
-            _id:'5',
             name:'Bolsa meia lua 2',
             category:'Bolsas',
             image:'/images/_CAO9482.jpg',
@@ -77,7 +72,6 @@ const data = {
             description: 'Bolsa em fibra de Buriti, com forro em tecido de algodão, alça longa , formato meia lua.',
         },
         {
-            _id:'6',
             name:'Bolsa coquinho',
             category:'Bolsas',
             image:'/images/_CAO9486.jpg',
