@@ -123,4 +123,8 @@
     4. install json web token
     5. install dotenv
     6. return token and data
-
+18. Design SignIn Screen
+    1. create SigninScreen
+    2. render email and password fields
+    3. create signin constants, actions and reducers
+    4. update header based on user login
