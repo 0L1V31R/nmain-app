@@ -4,6 +4,9 @@ import productRouter from './routers/productRouter.js';
 import userRouter from './routers/userRouter.js';
 
 const app = express();
+app.use(express.json());
+app.use(express.urlencoded({ extended:true }));
+
 // eslint-disable-next-line no-undef
 const { DB_USER, DB_PASS, DB_HOST, DB_PORT, DB_NAME } = process.env;
 mongoose.connect(`mongodb://${DB_USER}:${DB_PASS}@${DB_HOST}:${DB_PORT}/${DB_NAME}?authSource=admin`,
