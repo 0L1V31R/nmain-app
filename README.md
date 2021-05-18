@@ -97,3 +97,17 @@
     1. create removefromCart constant, action and reducers
     2. add reducer to store.js
     3. use action in CartScreen.js
+15. Connect to MongoDB
+    1. npm install mongoose
+    2. connect to mongodb
+    3. create config.js
+    4. npm install dotenv
+    5. export MONGODB_URL
+    6. create docker-compose.yml
+    7. create Makefile
+    8. create models/userModel.js
+    9. create userSchema and userModel
+    10. create models/productModel.js
+    11. create productSchema and productModel
+    12. create userRoute
+    13. seed sample data
