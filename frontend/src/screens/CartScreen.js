@@ -15,6 +15,7 @@ export default function CartScreen(props) {
         dispatch(addToCart(productId, qty));
       }
     }, [dispatch, productId, qty]);
+    
     const removeFromCartHandler = (id) => {
       dispatch(removeFromCart(id));
     };
