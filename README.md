@@ -144,3 +144,6 @@
     1. create checkoutStep.js component
     2. create shipping field
     3. implement shipping constant, actions and reducers
+22. Create Payment Screen
+    1. create payment fields
+    2. implement shipping constant, action and reducers
