@@ -1,5 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
+import orderRouter from './routers/orderRouter.js';
 import productRouter from './routers/productRouter.js';
 import userRouter from './routers/userRouter.js';
 
@@ -18,6 +19,7 @@ mongoose.connect(`mongodb://${DB_USER}:${DB_PASS}@${DB_HOST}:${DB_PORT}/${DB_NAM
 
 app.use('/api/users', userRouter);
 app.use('/api/products', productRouter);
+app.use('/api/orders', orderRouter);
 app.get('/', (req, res) => {
     res.send('Server is ready');
 });

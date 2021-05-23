@@ -150,3 +150,8 @@
 23. Design place order screen
     1. design order summary fields
     2. design order action
+24. Create Place Order API
+    1. create order api
+    2. create orderModel
+    3. create orderRouter
+    4. create post route
